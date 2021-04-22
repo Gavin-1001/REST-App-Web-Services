@@ -1,0 +1,15 @@
+export FLASK_APP=server.py
+flask run
+
+python xml_server.py
+python server.py
+
+
+rabbitmq-server - command to run mqserver
+rabbitmqctl stop - command to stop mqserver
+
+node --harmony hprose_server.js - run hprose server
+node client.js
+
+ ___Call Client Function___
+ python xmlserver.py
